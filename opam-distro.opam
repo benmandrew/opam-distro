@@ -2,10 +2,12 @@
 opam-version: "2.0"
 synopsis: ""
 description: ""
-maintainer: [""]
-authors: [""]
+maintainer: ["blah"]
+authors: ["blah"]
 license: "Apache-2.0"
-doc: ""
+homepage: "https://github.com/ocurrent/obuilder"
+doc: "blah"
+bug-reports: "https://github.com/ocurrent/obuilder/issues"
 depends: [
   "dune" {>= "3.7"}
   "astring"
@@ -28,3 +30,4 @@ build: [
     "@doc" {with-doc}
   ]
 ]
+dev-repo: "git+https://github.com/ocurrent/obuilder.git"

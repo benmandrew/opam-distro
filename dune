@@ -1,5 +1,5 @@
 (library
- (name distro)
+ (name opam_distro)
  (public_name opam-distro)
  (preprocess
   (pps ppx_deriving.std ppx_sexp_conv))
