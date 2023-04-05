@@ -1,15 +1,16 @@
 (lang dune 3.7)
-(name opam_distro)
+(name opam-distro)
 
 (generate_opam_files true)
+(source (github ocurrent/obuilder))
 
-(authors "")
-(maintainers "")
+(authors "blah")
+(maintainers "blah")
 (license "Apache-2.0")
-(documentation "")
+(documentation "blah")
 
 (package
- (name opam_distro)
+ (name opam-distro)
  (synopsis "")
  (description "")
  (depends
