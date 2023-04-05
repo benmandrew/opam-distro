@@ -3,4 +3,4 @@
  (public_name opam-distro)
  (preprocess
   (pps ppx_deriving.std ppx_sexp_conv))
- (libraries astring fmt ocaml-version sexplib))
+ (libraries astring fmt ocaml-version sexplib ppx_sexp_conv ppx_deriving))

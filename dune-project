@@ -17,4 +17,6 @@
   astring
   fmt
   ocaml-version
-  sexplib))
+  sexplib
+  ppx_sexp_conv
+  ppx_deriving))

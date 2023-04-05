@@ -14,6 +14,8 @@ depends: [
   "fmt"
   "ocaml-version"
   "sexplib"
+  "ppx_sexp_conv"
+  "ppx_deriving"
   "odoc" {with-doc}
 ]
 build: [
